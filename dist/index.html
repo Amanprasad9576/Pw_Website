@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body class="bg-slate-950">
+    <!--Navigation start here-->
+    <nav class="w-full h-12 bg-indigo-200 flex justify-between px-2
+       md:px-3 items-center">
+        <div class="text-indigo-700 font-bold text-2xl">PW Skills</div>
+        <ul class="md:flex hidden font-semibold ">
+            <li class="mx-[10px] cursor-pointer">Home</li>
+            <li class="mx-[10px] cursor-pointer">About</li>
+            <li class="mx-[10px] cursor-pointer">Contact Us</li>
+        </ul>
+        <div class= "bg-indigo-700 hidden md:block px-2 py-2 
+        text-white rounded font-bold cursor-pointer">Login/SignUp</div>
+        <div class="md:hidden ">
+            <a class="text-4xl" href="#">&#8801;</a>
+        </div>
+    </nav>
+    <!--Navigation bar end-->
+
+    <!--Image Section-->
+    <header class="w-full h-auto ">
+        <img class="w-full hidden md:block "src="https://cdn.pwskills.com/assets/uploads/banners/63a18cca807628f5968f528a/web.jpg" >
+        <img class="w-full md:hidden"src="https://cdn.pwskills.com/assets/uploads/banners/63a18cca807628f5968f528a/mobile.jpg" >
+
+    </header>
+    <!--Image section end here-->
+
+    <!--Student Section-->
+    <div class="h-auto w-100 flex flex-wrap flex-col items-center
+       text-center p-10">
+       <div class="w-full h-auto flex flex-wrap flex-col items-center"> 
+           <p class="text-blue-400 font-bold text-3xl md:text-4xl">"Pure HardWork,No Shortcuts"</p>
+           <div class="w-36 h-1 border-b-4 border-yellow-300 mt-2
+           md:mt-4 rounded-2xl mb-12  md:w-50"></div>
+       </div>
+        <div class="w-full flex flex-wrap justify-evenly">
+          <div class="w-46 flex flex-col items-center mb-12">
+             <img class="h-40 w-25"src="https://png.pngtree.com/png-vector/20230105/ourmid/pngtree-book-icon-vector-image-png-image_6552370.png">
+             <p class="text-white font-bold text-3xl">600+</p>
+             <p class="bg-slate-500">Different Courses</p>
+          </div>
+          <div class="w-46 flex flex-col items-center mb-12">
+              <img class="h-40 w-25"src="data:image/jpeg;base64,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">
+              <p class="text-white font-bold text-3xl">7000+</p>
+              <p class="bg-slate-500">Students Enrolled</p>
+          </div>
+          <div class="w-46 flex flex-col items-center mb-12">
+              <img class="h-40 w-25"src="https://media.istockphoto.com/id/667596100/vector/gold-credit-card.jpg?s=612x612&w=0&k=20&c=y8Xk6fgUbU_mwUimYsqn0g2mfJ89DA7WmIo6fdJENfA=">
+              <p class="text-white font-bold text-3xl">10000+</p>
+              <p class="bg-slate-500">Successful Transition</p>
+          </div>
+    </div>
+    <!--Our student section end here-->
+
+    <!--Product Section-->
+    <div class="flex flex-wrap w-100 flex-col h-auto items-center
+             text-center"> 
+       <div class="w-full h-auto flex flex-col flex-wrap items-center ">
+          <p class="text-indigo-500 text-3xl">Our Products</p>
+          <div class="w-48 border-b-4 bg-yellow-400 mb-4" ></div>
+       </div>
+       <div class="w-[90%] h-auto flex flex-wrap justify-around">
+          <div class="w-64 flex flex-col items-center rounded-xl mb-12 
+              border-white border-xl p-2">
+              <img src="https://media.licdn.com/dms/image/D5612AQH1f04QOO07MQ/article-cover_image-shrink_720_1280/0/1717650773330?e=2147483647&v=beta&t=W2Jse0Jrkc2ipWfHgA3TGyeM9HM_EVPLCTOlaVwZ6YE">
+              <p class="text-white font-bold text-3xl"> Job Portal</p>
+              <p class="text-gray-500 font-semibold">Use exceptional 
+                 templates for a stand resume minus the sign up process
+             </p>
+            </div>
+          <div class="w-64 flex flex-col items-center rounded-xl mb-12 
+              border-white border-2 p-2">
+              <img src="https://media.licdn.com/dms/image/D5612AQH1f04QOO07MQ/article-cover_image-shrink_720_1280/0/1717650773330?e=2147483647&v=beta&t=W2Jse0Jrkc2ipWfHgA3TGyeM9HM_EVPLCTOlaVwZ6YE">
+              <p class="text-white font-bold text-3xl"> Job Portal</p>
+              <p class="text-gray-500 font-semibold">Use exceptional 
+                 templates for a stand resume minus the sign up process
+              </p>             
+           </div>
+          <div class="w-64 flex flex-col items-center rounded-xl mb-12 
+              border-white border-2 p-2">
+              <img src="https://media.licdn.com/dms/image/D5612AQH1f04QOO07MQ/article-cover_image-shrink_720_1280/0/1717650773330?e=2147483647&v=beta&t=W2Jse0Jrkc2ipWfHgA3TGyeM9HM_EVPLCTOlaVwZ6YE">
+              <p class="text-white font-bold text-3xl"> Job Portal</p>
+              <p class="text-gray-500 font-semibold">Use exceptional 
+                 templates for a stand resume minus the sign up process
+              </p>             
+           </div>
+          <div class="w-64 flex flex-col items-center rounded-xl mb-12 
+              border-white border-2 p-2">
+              <img src="https://media.licdn.com/dms/image/D5612AQH1f04QOO07MQ/article-cover_image-shrink_720_1280/0/1717650773330?e=2147483647&v=beta&t=W2Jse0Jrkc2ipWfHgA3TGyeM9HM_EVPLCTOlaVwZ6YE">
+              <p class="text-white font-bold text-3xl"> Job Portal</p>
+              <p class="text-gray-500 font-semibold">Use exceptional 
+                 templates for a stand resume minus the sign up process
+              </p>             
+           </div>
+          <div class="w-64 flex flex-col items-center rounded-xl mb-12 
+              border-white border-2 p-2">
+              <img src="https://media.licdn.com/dms/image/D5612AQH1f04QOO07MQ/article-cover_image-shrink_720_1280/0/1717650773330?e=2147483647&v=beta&t=W2Jse0Jrkc2ipWfHgA3TGyeM9HM_EVPLCTOlaVwZ6YE">
+              <p class="text-white font-bold text-3xl"> Job Portal</p>
+              <p class="text-gray-500 font-semibold">Use exceptional 
+                 templates for a stand resume minus the sign up process
+              </p>             
+           </div>
+          </div>
+         </div>
+    </div>
+
+    <!--footer section start here-->
+    <footer class="w-full bg-gray-900 text-white pt-8 px-4
+      md:flex-row  flex flex-wrap flex-col justify-between">
+       <div>
+          <img class="w-30 h-20" src="data:image/jpeg;base64,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jx3IakCrjAFHUyO14zR9BxP0h5HzHvHWCcaG49Fm/i2CSNz3DnrhBoxtm5uuiPpeoHn79qu0Qaf4r5FZqnhtcjTXSjmNVGwQNjma4yHnaegB69N79NLjfg+3i2wYfU0c9dTRVLK17zFJKGu5S1mjo+XQrPKINSXHBOHdzr6iurY6WSpqZHSyv/GLxzOJ2ToP0FAOLWIYPY8ZbVWB0MNw8drWRx1plMjfpey5x6Dvse5U0iDVPCy92mTALRD+MaQSQweHLG6ZocxwJ2CN7C8P+jfhl/s9L/1KT/7WZEQWbxhsGKY3U2k4uYPGeXungbUGduhy8pIJOt9R79K3cWzjGM6sgpKx9JHPLHyVNtqnNHXz5QfnN8wR26disqog1rD+RXD2hqJYX0Nsjl9qQCTmkl1vQA2XO1s6A9Vm3iDk7suymquojdFA7UcEbu7Y29Bv3nqT8VHEQEREBERAREQEREBe+C9Xanj8OC6VsTO3Kyoe0fYCvAiD6VFRNUyeJUTSSv8A6Uji4/aV80RAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREH//Z">
+          <p>Email:Aman.9576@gmail.com</p>
+          <img class="w-30 h-20"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-Q4ULS4XSRy2RS0bvH2Ht5fN2KUaus-hhqw&s">
+       </div>
+
+       <div class="flex flex-col text-white">
+          <p class="mb-2 font-bold ">PW Skills</p>
+           <div class="border border-spacing-2 border-yellow-400 rounded-2xl mb-2"></div>
+           <p>About Us </p>
+           <p>FAQs</p>
+           <p>Privacy Policy</p>
+       </div>
+       <div class="flex flex-col text-white">
+          <p class="mb-2 font-bold ">Product</p>
+           <div class="border border-spacing-2 border-yellow-400 rounded-2xl mb-2"></div>
+           <p>PW Skill Lab </p>
+           <p>Job portal </p>
+           <p>Experience portal</p>
+           <p>Be an affiliated</p>
+           <p>Hall of fame</p>
+       </div>
+       <div class="flex flex-col text-white">
+          <p class="mb-2 font-bold ">Links</p>
+           <div class="border border-spacing-2 border-yellow-400 rounded-2xl mb-2"></div>
+           <p>Discard channel </p>
+           <p>PW youtube</p>
+           <p>Careers</p>
+       </div>
+       
+    
+    
+    </footer>
+</body>
+</html>
